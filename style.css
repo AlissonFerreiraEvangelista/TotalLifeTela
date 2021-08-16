@@ -117,7 +117,7 @@ display: flex;
 	width: 300px;
 	margin-left: 3rem;
 }
-@media screen and
+@media screen and (min-width: 200px) and
 (max-width: 780px){
 	.btnSubmit{
 		width: 300px;
@@ -136,6 +136,7 @@ display: flex;
 }
 @media screen and
 (max-width: 600px){
+	
 	.btnSubmit{
 		width: 300px;
 	}
