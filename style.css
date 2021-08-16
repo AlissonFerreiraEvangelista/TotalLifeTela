@@ -118,18 +118,41 @@ display: flex;
 	margin-left: 3rem;
 }
 @media screen and
-(min-width: 200px) and
 (max-width: 780px){
 	.btnSubmit{
 		width: 300px;
 	}
 	.login-user{
-	width: 300px;
+		width: 300px;
 	}
 	.logo{
 		transform: scale(0.8, 0.8);
 		-ms-transform: scale(0.8, 0.5);
 		-webkit-transform: scale(0.8, 0.8);
-
 	}
+	footer{
+		margin-top:50%;
+	}
+}
+@media screen and
+(max-width: 600px){
+	.btnSubmit{
+		width: 300px;
+	}
+	.login-user{
+		width: 300px;
+	}
+	.logo{
+		transform: scale(0.8, 0.8);
+		-ms-transform: scale(0.8, 0.8);
+		-webkit-transform: scale(0.8, 0.8);
+		margin-left: -10%;
+	}
+	footer{
+		margin-top:50%;
+	}
+	.container{
+		margin-left: 5%;
+	}
+
 }
