@@ -1,79 +1,135 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap');
-*{
-	padding: 0px;
-	margin: 0px;
-	font-family: 'Oswald', sans-serif;
-}
+
 body{
-	background: #f7fdff;
-}
-h1{
-	color: #2f3759;
-}
-img{
-	height: 70px;
-}
-
-.logo{
-	margin-left: 40%;
-	margin-top: 2%;
-	width: 280px;
-}
-.aling-center{
-	margin: auto;
-	width: 850px;
-}
-.form{
-	width: 845px;
-}
-.form-group, .input-group{
-	display: flex;
-}
-.input-group, .form-group{
-	margin: 0px 8px 10px 0px;
-	width: 750px;
-}
-#btnGetMatricula{
-	width: 100px;
-	font-size: 18px;
-	color:white;
+	font-family: 'Oswald', sans-serif;
+	font-size: 20px;
+	color: white;
 	background: #1b3b61;
-	box-shadow: 1px white;
-	text-align: center;
-	border-color: #83b4cd;
-	border-radius: 5px;
-	margin-bottom: 5px;
-
 }
-.input-text-mat{
-	width: 250px;
-	height: 35px;
-	border-radius: 5px;
-	border: 1px solid grey;
-	padding: 3px;
-	margin-top: 3px;
+p{
+	font-size: 25px;
 }
-.input-text{
-	width:90%;
-	height: 35px;
-	border: 1px solid grey;
-	border-radius: 5px;
-	padding: 3px;
-	margin-top: 3px;
-
-}
-#info-add-div{
-	display: none;
-}	
-
-.icon{
+.container{
 	margin: auto;
-	cursor: pointer;
+	margin-top: 5%;
+	width: 500px;
 }
-select, option{
-	font-size: 17px;
+a>i{
+	color: white;
+	size: 9px;
+}
+li{
+	list-style: none;
+	margin: 10px;
+}
+
+#whatsapp{
+	
+	border-radius: 50%;
+	width: 25px;
+	justify-content: right;
+	justify-items: right;
+	line-height: 1.2;
+	align-items: right;
+	text-align: center;
+}
+nav{
+	height: 50px;
+}
+
+ul{
+	display: flex;
+	margin: auto;
+}
+footer{
+	margin-top: 15%;
+}
+.logo{
+	
+	background-image: url("Logo.JPG");
+	height: 150px;
+	width: 450px;
+	background-repeat: no-repeat;
+}
+.sub-title {
+    display: inline-block;
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+.login-user{
+	width: 400px;
+	height: 30px;
+	margin: 0px 0px 9px 0px;
+	border:2px solid #ccd5da;
+	
 	
 }
-#estado{
-	margin-left: 10px;
+.btnSubmit{
+width: 440px;
+height: 35px;
+margin-top: 10px;
+background: #0085c4;
+color: white;
+font-size: 20px;
+border-color: #1b3b61;
+cursor: pointer;
+}
+.btnSubmit:hover{
+	background: white;
+	color: #1b3b61;
+}
+
+.icon-grupo{
+	
+	width: 35px;
+	height: 36px;
+	 color: #484e5a;
+ 	 background: #e9edee;
+ 	 border: #ccd5da;	
+}
+.input-group{
+display: flex;
+}
+.input-group-label{
+	align-items: center;
+	display: flex;
+	padding: .350rem .45rem;
+}
+.eye-icon{
+	cursor: pointer;
+	margin: 10px;
+	width: 30px;
+	margin-top: -5px;
+}
+
+.fas fa-eye-slash{
+	visibility: hidden;
+	z-index: 100;
+	position: absolute;
+}
+.rodape{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+
+}
+.Criador, .marcaR{
+	width: 300px;
+	margin-left: 3rem;
+}
+@media screen and
+(min-width: 200px) and
+(max-width: 780px){
+	.btnSubmit{
+		width: 300px;
+	}
+	.login-user{
+	width: 300px;
+	}
+	.logo{
+		transform: scale(0.8, 0.8);
+		-ms-transform: scale(0.8, 0.5);
+		-webkit-transform: scale(0.8, 0.8);
+
+	}
 }
