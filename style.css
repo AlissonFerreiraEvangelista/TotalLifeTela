@@ -121,7 +121,7 @@ display: flex;
 .Criador{
 	margin-left: 65%;
 }
-/*@media screen and (min-width: 200px) and
+@media screen and (min-width: 200px) and
 (max-width: 640px){
 	.btnSubmit{
 		width: 300px;
@@ -140,7 +140,7 @@ display: flex;
 	footer{
 		margin-top:50%;
 	}
-}*/
+}
 
 @media screen and (min-width: 380px) and (max-width: 480px)
 {
@@ -162,7 +162,6 @@ display: flex;
 	}
 	footer{
 		margin-top:70%;
-		border: 1px solid red;
 	}
 	.Criador{
 		margin-left: 3rem;
