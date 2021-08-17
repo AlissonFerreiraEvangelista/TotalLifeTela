@@ -121,7 +121,7 @@ display: flex;
 .Criador{
 	margin-left: 65%;
 }
-@media screen and (min-width: 485px) and
+@media screen and (min-width: 485px) or
 (max-width: 600px){
 	.btnSubmit{
 		width: 450px;
