@@ -111,32 +111,18 @@ display: flex;
 	display: flex;
 	flex-direction: row;
 	flex-wrap: wrap;
+	
 
 }
 .Criador, .marcaR{
 	width: 300px;
 	margin-left: 3rem;
 }
-@media screen and (min-width: 200px) and
-(max-width: 780px){
-	.btnSubmit{
-		width: 300px;
-	}
-	.login-user{
-		width: 300px;
-	}
-	.logo{
-		transform: scale(0.8, 0.8);
-		-ms-transform: scale(0.8, 0.5);
-		-webkit-transform: scale(0.8, 0.8);
-	}
-	footer{
-		margin-top:50%;
-	}
+.Criador{
+	margin-left: 65%;
 }
-@media screen and
-(max-width: 600px){
-	
+/*@media screen and (min-width: 200px) and
+(max-width: 640px){
 	.btnSubmit{
 		width: 300px;
 	}
@@ -147,13 +133,40 @@ display: flex;
 		transform: scale(0.8, 0.8);
 		-ms-transform: scale(0.8, 0.8);
 		-webkit-transform: scale(0.8, 0.8);
-		margin-left: -10%;
+	}
+	.Criador{
+		margin-left: 3rem;
 	}
 	footer{
 		margin-top:50%;
 	}
-	.container{
-		margin-left: 5%;
+}*/
+
+@media screen and (min-width: 380px) and (max-width: 480px)
+{
+	
+	.container,.form-group {
+		width: 340px;
 	}
+	.btnSubmit{
+		width: 85%;
+	}
+	.login-user{
+		width: 70%;
+	}
+	.logo{
+		transform: scale(0.8, 0.8);
+		-ms-transform: scale(0.8, 0.8);
+		-webkit-transform: scale(0.8, 0.8);
+		margin-left: -10%;
+	}
+	footer{
+		margin-top:70%;
+		border: 1px solid red;
+	}
+	.Criador{
+		margin-left: 3rem;
+	}
+	
 
 }
