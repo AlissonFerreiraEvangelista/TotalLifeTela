@@ -124,10 +124,10 @@ display: flex;
 @media screen and
 (max-width: 600px){
 	.btnSubmit{
-		width: 450px;
+		width: 250px;
 	}
 	.login-user{
-		width: 400px;
+		width: 200px;
 	}
 	.logo{
 		transform: scale(0.8, 0.8);
