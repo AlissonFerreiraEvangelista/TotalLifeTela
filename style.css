@@ -11,8 +11,12 @@ p{
 }
 .container{
 	margin: auto;
-	margin-top: 5%;
+	margin-top: 5%;;
+
+}
+form{
 	width: 500px;
+	margin: auto;
 }
 a>i{
 	color: white;
@@ -50,6 +54,8 @@ footer{
 	height: 150px;
 	width: 450px;
 	background-repeat: no-repeat;
+	margin: auto;
+
 }
 .sub-title {
     display: inline-block;
@@ -121,28 +127,39 @@ display: flex;
 .Criador{
 	margin-left: 65%;
 }
+
 @media screen and
-(min-width: 360px){
+(min-width: 200px) and (max-width: 379px){
 	.btnSubmit{
-		width: 250px;
+		width: 310px;
 	}
 	.login-user{
-		width: 200px;
+		width: 255px;
+	}
+	.container{
+		margin: 0px;
+	}
+	form{
+		margin: auto;
+		width: 350px;
+		
 	}
 	.logo{
 		-moz-transform: scale(0.8, 0.8);
 		-ms-transform: scale(0.8, 0.8);
 		-webkit-transform: scale(0.8, 0.8);
 		transform: scale(0.8, 0.8);
+		margin-left: -15%;
 	}
 	.Criador{
 		margin-left: 3rem;
 	}
 	footer{
-		margin-top:40%;
+		margin-top:30%;
 		border: 1px solid red;
 	}
 }
+
 
 @media screen and (min-width: 380px) and (max-width: 480px)
 {
@@ -160,7 +177,7 @@ display: flex;
 		transform: scale(0.8, 0.8);
 		-ms-transform: scale(0.8, 0.8);
 		-webkit-transform: scale(0.8, 0.8);
-		margin-left: -10%;
+		margin-left: -15%;
 	}
 	footer{
 		margin-top:30%;
