@@ -28,7 +28,7 @@
 								<label class="input-group-label"><i class="fas fa-key"></i></label>
 							</div>
 							<input type="password" name="pass-user" placeholder="Senha" class="login-user" id="pass-user" required="required">
-							<div class="eye-icon" id="eye-icon"><i class="fas fa-eye" id="fas fa-eye"></i></div>
+							<div class="eye-icon" id="eye-icon"><i class="fas fa-eye" id="fas fa-eye" ></i></div>
 						</div>
 						<div class="form-check-div">
 							<div class="form-check">
@@ -82,12 +82,18 @@
 				document.getElementById('eye-icon').addEventListener('mousemove', function() {
 			  document.getElementById('pass-user').type = 'password';
 			});
-				document.getElementById('eye-icon').addEventListener('click', function() {
- 				document.getElementById('pass-user').type = 'text';
- 			});
-				document.getElementById('eye-icon').addEventListener('click', function() {
- 				document.getElementById('pass-user').type = 'password';
- 			});
+			
+				//Alteração do Input no touch
+				document.getElementById('eye-icon').addEventListener('touchstart', function() {
+		 		document.getElementById('pass-user').type = 'text';
+		 		});
+
+					document.getElementById('eye-icon').addEventListener('touchend', function() {
+					  document.getElementById('pass-user').type = 'password';		
+					});
+
+			
+			
 
 			
 	</script>

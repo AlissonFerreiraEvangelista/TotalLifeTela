@@ -156,7 +156,6 @@ display: flex;
 	}
 	footer{
 		margin-top:30%;
-		border: 1px solid red;
 	}
 }
 
@@ -185,7 +184,6 @@ display: flex;
 	footer{
 		margin-top:30%;
 		width: 380px;
-		border: 1px solid green;
 	}
 	.Criador{
 		margin-left: 3rem;
