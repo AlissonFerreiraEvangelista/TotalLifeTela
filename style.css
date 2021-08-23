@@ -46,7 +46,7 @@ ul{
 	margin: auto;
 }
 footer{
-	margin-top: 15%;
+	margin-top: 10%;
 }
 .logo{
 	
@@ -115,18 +115,16 @@ display: flex;
 }
 .rodape{
 	display: flex;
-	flex-direction: row;
+	flex-direction: column;
 	flex-wrap: wrap;
 	
 
 }
 .Criador, .marcaR{
-	width: 300px;
+	width: 500px;
 	margin-left: 3rem;
 }
-.Criador{
-	margin-left: 65%;
-}
+
 
 @media screen and
 (min-width: 200px) and (max-width: 379px){
@@ -151,11 +149,14 @@ display: flex;
 		transform: scale(0.8, 0.8);
 		margin-left: -15%;
 	}
-	.Criador{
-		margin-left: 3rem;
-	}
+	
+	
 	footer{
 		margin-top:30%;
+	}
+	.Criador, .marcaR{
+	width: 300px;
+	margin-left: 3rem;
 	}
 }
 
@@ -185,8 +186,9 @@ display: flex;
 		margin-top:30%;
 		width: 380px;
 	}
-	.Criador{
-		margin-left: 3rem;
+	.Criador, .marcaR{
+	width: 300px;
+	margin-left: 3rem;
 	}
 	
 
